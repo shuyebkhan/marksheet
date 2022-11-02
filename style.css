@@ -13,12 +13,16 @@ body #marksheet {
   height: 100vh;
   align-items: center;
 }
-body table {
+body #marksheet table {
   background-color: white;
   height: 70vh;
   width: 80%;
 }
-body table th {
+body #marksheet table th {
   background-color: rgba(0, 0, 255, 0.317);
   font-size: 20px;
+}
+
+td {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

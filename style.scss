@@ -1,12 +1,18 @@
+  // using variable
 $bg:aquamarine;
 $cl:white;
 $font:20px;
+
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+  //  NESTING
 body{
     background-color: $bg;
 
@@ -25,7 +31,13 @@ body{
          th{
             background-color: rgba(0, 0, 255, 0.317);
             font-size: $font;
-      }
+         
+          
+        }
     }
   }
+}
+
+td{
+  text-align: center;
 }
